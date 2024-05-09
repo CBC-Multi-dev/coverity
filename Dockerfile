@@ -6,3 +6,4 @@ RUN apt-get update && \
 COPY . .
 
 CMD ["mvn", "spring-boot:run"]
+  app.secret=edf10572-880c-4dd9-aaf0-6ec402f678db
